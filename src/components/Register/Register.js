@@ -90,6 +90,9 @@ class Register extends React.Component {
 			       />
 			      </div>
 			    </fieldset>
+			    <div className='dark-red f6 pa2'>
+					{`${this.state.isRegisteredUser}`}
+				</div>
 			    <div className="">
 			      <input 
 			      	onClick = {this.onSubmitSignIn}
